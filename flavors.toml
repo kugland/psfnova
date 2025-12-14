@@ -1,0 +1,117 @@
+[[flavor]]
+base_charset = "cp437"
+
+[[flavor]]
+base_charset = "cp737"
+
+[[flavor]]
+base_charset = "cp775"
+
+[[flavor]]
+base_charset = "cp850"
+
+[[flavor]]
+base_charset = "cp852"
+
+[[flavor]]
+base_charset = "cp857"
+
+[[flavor]]
+base_charset = "cp858"
+
+[[flavor]]
+base_charset = "cp860"
+
+[[flavor]]
+base_charset = "cp861"
+
+[[flavor]]
+base_charset = "cp863"
+
+[[flavor]]
+base_charset = "cp865"
+
+[[flavor]]
+base_charset = "cp866"
+
+[[flavor]]
+base_charset = "cp869"
+
+[[flavor]]
+base_charset = "ruscii"
+
+[[flavor]]
+base_charset = "koi8_r"
+
+[[flavor]]
+base_charset = "koi8_u"
+
+[[flavor]]
+suffix = "pan_latin"
+base_charset = "cp437"
+additional_charsets = [
+    "cp775",
+    "cp850",
+    "cp852",
+    "cp857",
+    "cp858",
+    "cp860",
+    "cp861",
+    "cp863",
+    "cp865",
+    "iso-8859-1",
+    "iso-8859-2",
+    "iso-8859-3",
+    "iso-8859-4",
+    "iso-8859-9",
+    "iso-8859-13",
+    "iso-8859-14",
+    "iso-8859-15",
+    "iso-8859-16",
+    "windows-1250",
+    "windows-1252",
+    "windows-1254",
+    "windows-1257",
+    "mac-iceland",
+    "mac-latin2",
+    "mac-roman",
+    "mac-turkish",
+    "general-punctuation",
+    "dec-special-graphics",
+    "powerline",
+]
+additional_glyphs = [
+    "0xFFFD", # REPLACEMENT CHARACTER
+]
+
+[[flavor]]
+suffix = "greek+eastern_european"
+base_charset = "cp437"
+additional_charsets = [
+    "cp737",
+    "cp869",
+    "cp850",
+    "cp852",
+    "cp857",
+    "cp858",
+    "iso-8859-1",
+    "iso-8859-2",
+    "iso-8859-7",
+    "iso-8859-9",
+    "iso-8859-15",
+    "iso-8859-16",
+    "windows-1250",
+    "windows-1252",
+    "windows-1253",
+    "windows-1254",
+    "mac-greek",
+    "mac-latin2",
+    "mac-roman",
+    "mac-turkish",
+    "general-punctuation",
+    "dec-special-graphics",
+    "powerline",
+]
+additional_glyphs = [
+    "FFFD", # REPLACEMENT CHARACTER
+]

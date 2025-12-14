@@ -1,0 +1,9 @@
+{
+  "recommendations": [
+    "ms-python.vscode-pylance",
+    "jnoortheen.nix-ide",
+    "esbenp.prettier-vscode",
+    "EditorConfig.EditorConfig",
+    "ms-python.python"
+  ]
+}
