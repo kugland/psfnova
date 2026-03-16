@@ -1,1 +1,12 @@
-__pycache__
+__pycache__/
+*.egg-info/
+.installed.cfg
+*.egg
+.venv/
+venv/
+ENV/
+env/
+*.swp
+*.swo
+*~
+.DS_Store

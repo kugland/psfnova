@@ -24,8 +24,11 @@ def process_one_glyph(glyph_path: Path):
 
 GLYPHS_DIR = Path(__file__).parent.parent / "glyphs"
 
-if __name__ == "__main__":
+def main():
     for size in ['1x', '2x']:
         parent_dir = GLYPHS_DIR / size
         for glyph_file in parent_dir.glob("[0-9A-F][0-9A-F][0-9A-F][0-9A-F] *.png"):
             process_one_glyph(parent_dir / glyph_file)
+
+if __name__ == "__main__":
+    main()

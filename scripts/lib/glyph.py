@@ -5,7 +5,7 @@ from pathlib import Path
 from typing import Literal
 from typing import Generator
 
-from lib.codepoint import Codepoint
+from .codepoint import Codepoint
 
 GLYPHS_DIR = Path(__file__).parent / ".." / ".." / "glyphs"
 
